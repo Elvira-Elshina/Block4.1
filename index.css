@@ -1,0 +1,135 @@
+@import url(fonts.css);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "TTLakes";
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 1024px;
+    box-shadow: 10px 0 20px 0 rgb(160, 160, 160);
+   }
+
+.header {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.button {
+    border: none;
+    background: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.header__button-search {
+    margin-left: 68px;
+}
+
+.header__logo {
+    margin-left: 12px;
+}
+
+.li {
+    display: flex;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+.nav__li-equipment-repair::before,
+.li:hover::before {
+    display: block;
+    content:" ";
+    background-color: #41F6D7;
+
+    width: 4px;
+    height: 32px;
+    margin-right: 20px;
+    margin-left: -24px;
+    margin-top: -5px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav__list {
+    list-style: none;
+    margin-left: 24px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.nav__links {
+    color: black;
+}
+
+.nav__link-equipment-repair,
+.nav__links:hover {
+    color: #7E7E82;
+}
+
+.footer {
+    color: black;
+    margin-top: 268px;
+    margin-left: 20px;
+}
+
+.footer__mail {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+
+.footer__mail-link {
+    font-size: 16px;
+    color: #1B1C21;
+}
+
+.footer__tel {
+    margin-left: 4px;
+}
+
+.footer__tel-link {
+    color: #1B1C21;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer__langs {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    margin-left: 4px;
+}
+
+.footer__lang {
+    font-size: 16px;
+    color: #1B1C21;
+    margin-right: 7px;
+    letter-spacing: -0.2px;
+}
+
+.footer__lang:hover {
+    color: #7E7E82;
+}
+
+.footer__lang-ru {
+    color: #7E7E82;
+}
