@@ -48,7 +48,7 @@
 
 }
 
-.nav__li-equipment-repair::before,
+.li_link-active::before,
 .li:hover::before {
     display: block;
     content:" ";
