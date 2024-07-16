@@ -17,8 +17,6 @@
     width: auto;
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-left: 20px;
     padding-bottom: 25px;
 }
 
@@ -56,15 +54,19 @@
 
 
 .menu {
+    padding-top: 20px;
     margin-left: 24px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
 .nav__item {
     display: flex;
     height: 32px;
-    margin-top: 24px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
     padding: 0;
 
 }
@@ -102,8 +104,8 @@ a {
 
 .footer {
     color: black;
-    margin-left: 24px;
-    margin-top: 140px;
+    margin-top: auto;
+    margin-bottom: 32px;
 }
 
 .footer__button-call {
@@ -128,7 +130,6 @@ a {
 .footer__mail {
     margin-top: 16px;
     margin-bottom: 12px;
-    margin-left: 4px;
 }
 
 .footer__mail-link {
@@ -145,18 +146,15 @@ a {
 
 .footer__langs {
     margin-top: 40px;
-    margin-bottom: 32px;
 }
 
 .footer__lang {
     font-size: 16px;
     color: #1B1C21;
     margin-right: 7px;
-    letter-spacing: -0.2px;
 }
 
 .footer__lang:hover, .footer__langs_link--active, 
 .nav__links:hover,  .nav__link-equipment-repair {
-    opacity: 0.5;
-    
+    opacity: 0.5; 
 }
